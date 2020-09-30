@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="QA25YuliaLukProject">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../DocumentsGitHub/QA25YuliaLukProject" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../DocumentsGitHub/QA25YuliaLukProject/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

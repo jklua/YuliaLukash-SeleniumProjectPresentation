@@ -15,8 +15,8 @@ public class SearchMisradApnimTest {
 
     @BeforeMethod
     public void setUp(){
-       wd = new FirefoxDriver();
-       // wd = new ChromeDriver();
+       //wd = new FirefoxDriver();
+        wd = new ChromeDriver();
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         wd.navigate().to("https://www.gov.il/");
@@ -27,8 +27,8 @@ public class SearchMisradApnimTest {
         //click on Kabalat Kahal קבלת קהל
         wd.findElement(By.cssSelector("#tm-4")).click();
 
-
-        String pageTitle = wd.findElement(By.cssSelector("h1 span")).getText();
+        //get page title
+        String pageTitle = wd.findElement(By.cssSelector("h1")).getText();
         System.out.println(pageTitle);
     }
 
